@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+        <title>Pesquisa</title>
+    </head>
+    <body>
+        <form>
+            <div style="text-align:center" >
+                <fieldset>
+                    <legend><h1>Formulário</h1></legend>
+                    
+                    <label for="nome"><b>Nome:</b></label>
+                    <input type="text" nome="nome" id="nome">
+                    <br>
+                    <br> 
+                    <label for="idade"><b>Idade:</b></label>
+                    <input type="number" id="idade" name="idade">
+
+                    <p><b> Qual a sua escolaridade?</b></p>
+                    <input type="radio" id="primeiroGrau" name="escola1">
+                    <label for="primeiroGrau">Primeiro grau</label>
+                    <br>
+                    <input type="radio" id="segundoGrau" name="escola2">
+                    <label for="segundoGrau">Segundo grau</label> 
+                    <br>
+                    <input type="radio" id="terceiroGrau" nome="escola3">
+                    <label for="terceiroGrau">Terceiro grau</label>
+
+                    <p><b> Como você se desloca?</b></p>
+                    <input type="checkbox" id="transPub" name="transPub">
+                    <label for="transPub">Transporte público</label>
+                    <br>
+                    <input type="checkbox" id="transPar" name="transPar">
+                    <label for="transPar">Transporte particular</label>
+                    <br>
+                    <input type="checkbox" id="aPe" name="aPe">
+                    <label for="aPe">A pé</label>
+                    <br>
+                    <input type="checkbox" id="bike" name="bike">
+                    <label for="bike">Bicicleta</label>
+                    <br>
+                    <br>
+                    <input type="reset" value="LIMPAR">
+                    <input type="button" value="ENVIAR" onClick="enviar(this.form)">
+                    
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
